@@ -93,6 +93,5 @@ def get_fare(train_no: str, date: str, src: str, dst: str, cls: str = "2S", quot
     result = subprocess.run(command, capture_output=True, text=True, check=True)
     return json.loads(result.stdout)
 
-def get_no_of_seats()
 if __name__ == '__main__':
     print(get_trains("PGI", "ERN", "20250802"))
