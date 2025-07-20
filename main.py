@@ -6,6 +6,6 @@ tl = list()
 
 for train in trains:
     for clses in train['avlClasses']:
-        print(get_fare(train['trainNumber'], "20250720", "ERN", "PGI" ,cls=clses))
+        print(get_fare(train['trainNumber'], "20250720", "ERN", "PGI" , clses))
     
 print(tl)
